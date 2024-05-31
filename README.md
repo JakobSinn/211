@@ -1,2 +1,3 @@
 # Einhüllende Vermessen
 Ein Tool, welches in python die Einhüllende eines Signals vermisst. Für das Plotten (was aber auch auskommentiert werden kann) muss _plotnine_ installiert sein, siehe plotnine.org . Erstellt für PAP-Versuch 211 an der Uni Heidelberg, 2024
+Zur benutzung: je nach kupplung muss die geschätzte Frequenz der einhuellenden angepasst werden - dafür den letzten Wert in p0 bei den curve_fit mit hfunc() entsprechend abändern. Das wird in den kommentaren im code auch noch mal erklärt. Bei benutzung wird automatisch eine bilddatei gespeichert. Die funktion nimmt einfach zwei arrays und einen string, die arrays können auch einfach columns aus einem pd.DataFrame sein.
